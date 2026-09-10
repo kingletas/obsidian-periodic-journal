@@ -8,11 +8,11 @@
 		"test": "node tests/build.mjs && tsc -noEmit -skipLibCheck && node esbuild.config.mjs production && node tests/run.mjs"
 	},
 	"devDependencies": {
-		"@types/node": "^22.15.17",
-		"builtin-modules": "^3.3.0",
-		"esbuild": "^0.25.5",
+		"@types/node": "^26.5.0",
+		"builtin-modules": "^5.3.0",
+		"esbuild": "^0.28.2",
 		"obsidian": "latest",
-		"typescript": "^5.8.3"
+		"typescript": "^7.0.2"
 	},
 	"dependencies": {}
 }
