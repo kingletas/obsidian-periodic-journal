@@ -1,0 +1,67 @@
+.periodic-journal-type {
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--radius-m);
+  padding: 0 0.9em 0.4em;
+  margin-bottom: 0.9em;
+  background: var(--background-secondary);
+}
+
+.periodic-journal-type.is-disabled {
+  opacity: 0.55;
+}
+
+.periodic-journal-type .setting-item {
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+.periodic-journal-type .setting-item:first-child {
+  border-top: none;
+}
+
+.periodic-journal-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  padding-top: 0.6em;
+  font-weight: var(--font-semibold);
+}
+
+.periodic-journal-heading .periodic-journal-badge {
+  font-size: var(--font-ui-smaller);
+  font-weight: var(--font-normal);
+  color: var(--text-muted);
+  background: var(--background-modifier-hover);
+  border-radius: var(--radius-s);
+  padding: 0 0.5em;
+}
+
+.periodic-journal-preview {
+  font-family: var(--font-monospace);
+  font-size: var(--font-ui-smaller);
+  color: var(--text-muted);
+  word-break: break-all;
+}
+
+.periodic-journal-preview.is-error {
+  color: var(--text-error);
+}
+
+.periodic-journal-preview.is-ok {
+  color: var(--text-success);
+}
+
+.periodic-journal-warning {
+  border-left: 3px solid var(--text-warning);
+  background: var(--background-secondary);
+  padding: 0.6em 0.9em;
+  margin-bottom: 1em;
+  border-radius: var(--radius-s);
+  font-size: var(--font-ui-small);
+}
+
+.periodic-journal-actions {
+  display: flex;
+  gap: 0.5em;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+}
